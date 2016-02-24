@@ -6,7 +6,7 @@ public class Adivina {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
-		int genera = (int)(Math.random() * 10 ) + 1;
+		int genera = (int)(Math.random() * 20 ) + 1;
 		System.out.println("Primer into(" + genera + ")" + ": ");
 		int numero = teclado.nextInt();
 		if (numero == genera)
@@ -17,12 +17,12 @@ public class Adivina {
 			if (numero == genera)
 				System.out.println("Correcto.");
 			else { 
-				System.out.println("Último intento: ");
+				System.out.println("Ãšltimo intento: ");
 				numero = teclado.nextInt();
 				if (numero == genera)
 					System.out.println("Mal.");
 				else 
-					System.out.println("Lo siento, el número era el " + genera);
+					System.out.println("Lo siento, el nÃºmero era el " + genera);
 			}
 		}
 		teclado.close();

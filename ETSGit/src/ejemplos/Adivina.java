@@ -12,7 +12,7 @@ public class Adivina {
 		if (numero == genera)
 			System.out.println("Correcto.");
 		else {
-			System.out.println("Segundo intento: ");
+			System.out.println("2 intento: ");
 			numero = teclado.nextInt();
 			if (numero == genera)
 				System.out.println("Correcto.");

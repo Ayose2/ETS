@@ -20,7 +20,7 @@ public class Adivina {
 				System.out.println("Último intento: ");
 				numero = teclado.nextInt();
 				if (numero == genera)
-					System.out.println("Correcto.");
+					System.out.println("Mal.");
 				else 
 					System.out.println("Lo siento, el número era el " + genera);
 			}
